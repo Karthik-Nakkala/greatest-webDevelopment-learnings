@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Design</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #ffd700;
+            
+
+        }
+        .responsive-container{
+            background-color: rgb(242, 104, 5);
+            color: white;
+            padding: 15px;
+            
+
+        }
+        @media (max-width:640px){
+            body{
+                background-color: rgb(72, 68, 68);
+
+            }
+            .responsive-container{
+                background-color: blue;
+                font-family: lucida sans;
+            }
+        }
+        @media (min-width:641px) and (max-width:1024px){
+            body{
+                background-color: aqua;
+            }
+            .responsive-container{
+                background-color: rgb(230, 24, 127);
+                font-family: 'orbitron' sans-serif;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="responsive-container">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, voluptas!
+    </div>
+</body>
+</html>

@@ -1,0 +1,54 @@
+body,html{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.main-container{
+    background: linear-gradient(140deg,rgb(190, 104, 190),rgb(137, 62, 218));
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    background-color: azure;
+    padding: 20px;
+    border-radius: 10px;
+}
+img{
+    width: 120px;
+    border-radius: 20px;
+    
+}
+input[type="email"]{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    color: rgb(28, 23, 33);
+    display: block;
+    margin-bottom: 10px;
+}
+.notify-btn{
+    width: 200px;
+    padding: 8px;
+    background-color: rgb(161, 97, 220);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.6s ease-in-out;
+}
+.notify-btn:hover{
+    background-color: rgb(104, 47, 158);
+}
+p{
+    font-family: "Brush Script Mt";
+    font-size: 20px;
+}
